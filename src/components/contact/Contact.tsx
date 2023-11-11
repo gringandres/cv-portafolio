@@ -9,7 +9,12 @@ import {
 
 const Contact = () => {
   const form = useRef();
-  const sendEmail = (e) => {
+  const sendEmail = (
+    e: React.FormEvent<HTMLFormElement> & {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      target: HTMLButtonElement & { reset: any };
+    }
+  ) => {
     e.preventDefault();
 
     emailjs.sendForm(
