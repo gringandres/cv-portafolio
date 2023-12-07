@@ -1598,6 +1598,11 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-hook-mighty-mouse@^1.4.31:
+  version "1.4.31"
+  resolved "https://registry.yarnpkg.com/react-hook-mighty-mouse/-/react-hook-mighty-mouse-1.4.31.tgz#ad351a6add5a70dd7151a4ac9068954732a7106b"
+  integrity sha512-eLldpCv5nBH/j9KkXn/p+fG+p73D0q1mGSTEFF1V+SppgwcMyUeGnuB/I5TePAREeIQ+g0/USMV+2I2EMw8suw==
+
 react-icons@^4.11.0:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.11.0.tgz#4b0e31c9bfc919608095cc429c4f1846f4d66c65"
