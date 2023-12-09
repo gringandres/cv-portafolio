@@ -2,7 +2,7 @@ import "./assistent.css";
 import useMightyMouse from "react-hook-mighty-mouse";
 import smile from "../../assets/smile.png";
 
-const Assistent = () => {
+const Smile = () => {
   const {
     selectedElement: {
       position: { angle: angleLeftEye },
@@ -47,4 +47,4 @@ const Assistent = () => {
   );
 };
 
-export default Assistent;
+export default Smile;

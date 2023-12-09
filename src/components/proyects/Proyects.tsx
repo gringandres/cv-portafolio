@@ -1,9 +1,9 @@
+import Assistent from "../assitent/Smile";
 import IMG1 from "../../assets/Screenshot 2023-12-09 at 3.25.15 PM.png";
 import IMG2 from "../../assets/Screenshot 2023-12-09 at 3.25.41 PM.png";
 import IMG3 from "../../assets/Screenshot 2023-12-09 at 3.26.03 PM.png";
 import IMG4 from "../../assets/Screenshot 2023-12-09 at 3.26.37 PM.png";
 import IMG5 from "../../assets/Screenshot 2023-12-09 at 3.24.55 PM.png";
-import Assistent from "../assitent/assistent";
 
 import "./proyects.css";
 const Proyects = () => {

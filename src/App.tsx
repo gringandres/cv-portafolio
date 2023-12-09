@@ -4,13 +4,11 @@ import Contact from "./components/contact/Contact";
 import Nav from "./components/nav/Nav";
 import Proyects from "./components/proyects/Proyects";
 import Footer from "./components/footer/Footer";
-// import Assistent from "./components/assitent/assistent";
 
 const App = () => {
   return (
     <>
       <Header />
-      {/* <Assistent /> */}
       <Nav />
       <Info />
       <Proyects />
