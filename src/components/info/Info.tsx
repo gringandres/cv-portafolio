@@ -21,26 +21,32 @@ const Info = () => {
             <article className="info__card">
               <BsAward className="info__icon" />
               <h5>Experience</h5>
-              <small>3+ Years</small>
+              <small>4+ Years</small>
             </article>
 
             <article className="info__card">
               <PiComputerTowerBold className="info__icon" />
               <h5>Jobs</h5>
+              <div className="info__card-iner-container">
+                <small>Team International</small>
+                <small>Zilliant</small>
+              </div>
             </article>
 
             <article className="info__card">
               <PiBooksLight className="info__icon" />
               <h5>Studys</h5>
-              <small>React, JS, Node</small>
+              <small>React, JS, Node, Ts, MERN</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
-            nostrum quod nobis nisi tenetur est blanditiis, veniam totam, non
-            quidem pariatur quas itaque praesentium dignissimos dolor ullam et,
-            officia aliquam!
+            Hey there! I'm a front end developer that loves coding. Born in
+            colombia and lived some time in Boston M.A. Currently living in
+            Medellin and I Love to keep up with the new technologies and love to
+            create pages. I'm a informatic Engineer, also into video games and
+            going out on motorcycle rides. Love to travel and get to know new
+            places. Who doesn't like traveling?
           </p>
 
           <button>

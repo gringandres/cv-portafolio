@@ -11,11 +11,18 @@
 }
 
 :root {
-  --color-bg: #7d7f80;
+  /* --color-bg: #7d7f80;
   --color-bg-variant: #9615db;
   --color-white: #fff;
   --color-primary: #2d3032;
-  --color-primary-variant: #d2d3d3;
+  --color-primary-variant: #d2d3d3; */
+
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-black: black;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -42,6 +49,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/cream-pixels.png);
+  /* background-image: url(../src/assets/5001147_19742.jpg); */
 }
 
 .container {

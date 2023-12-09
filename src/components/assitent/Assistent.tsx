@@ -1,11 +1,8 @@
 import "./assistent.css";
 import useMightyMouse from "react-hook-mighty-mouse";
 import smile from "../../assets/smile.png";
-import { useState } from "react";
 
 const Assistent = () => {
-  const [changePostion, setChangePostion] = useState(false);
-
   const {
     selectedElement: {
       position: { angle: angleLeftEye },
@@ -19,7 +16,6 @@ const Assistent = () => {
 
   const {
     selectedElement: { isHover },
-    buttons,
   } = useMightyMouse(true, "smile", { x: 125, y: 70 });
 
   const styleLeftEye = {
@@ -29,15 +25,10 @@ const Assistent = () => {
     transform: `rotate(${-angleRightEye}deg)`,
   };
 
-  const positionLocation = () => {
-    if (buttons.left && isHover) {
-      setChangePostion(!changePostion);
-    }
-    return `main-container-eyes-${changePostion ? "left" : "right"}`;
-  };
-
   return (
-    <div className={positionLocation()}>
+    <div
+      className={`main-container-eyes smile-photo-${isHover ? "show" : "hide"}`}
+    >
       <div className="eyes-follow-tired">
         <div className="container-eyes">
           <div className="eyes">
@@ -49,12 +40,8 @@ const Assistent = () => {
             </div>
           </div>
         </div>
-        <img
-          className={`smile-photo-${isHover ? "show" : "hide"}`}
-          src={smile}
-          alt="Info image"
-          id="smile"
-        />
+        <img src={smile} alt="Info image" id="smile" />
+        <h2 className="subtitle-soon">Coming soon!...</h2>
       </div>
     </div>
   );

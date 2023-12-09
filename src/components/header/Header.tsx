@@ -1,5 +1,5 @@
 import CV from "../../assets/CV.pdf";
-import me from "../../assets/[removal.ai]_e03f0082-0a6c-4392-ab9c-48903499349d-img_1488-1.png";
+import me from "../../assets/[removal.ai]_0acbba79-27a0-4ea7-855f-c46a9eefa2eb-img_2409.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import "./header.css";
 const Header = () => (
@@ -19,7 +19,6 @@ const Header = () => (
           <a href="#contact">Contact Me</a>
         </button>
       </div>
-      {/* //--- */}
       <div className="header__button-group-social">
         <a href="https://www.linkedin.com/in/andres-betancur-rivillas-frontend">
           <AiFillLinkedin />

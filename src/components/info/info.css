@@ -22,6 +22,10 @@
   display: grid;
   place-items: center;
 }
+.info__card-iner-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .info__about-photo {
   border-radius: 2rem;
@@ -46,12 +50,6 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
-}
-
-.info__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
 }
 
 .info__icon {

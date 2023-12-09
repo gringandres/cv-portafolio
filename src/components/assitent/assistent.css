@@ -1,21 +1,8 @@
-.main-container-eyes-right {
+.main-container-eyes {
   display: block;
-  z-index: 2;
-  position: fixed;
-  left: 80%;
-  transform: translateX(-50%);
+  position: static;
   bottom: 2rem;
-  height: 80vh;
-}
-
-.main-container-eyes-left {
-  display: block;
-  z-index: 2;
-  position: fixed;
-  left: 80%;
-  transform: translateX(-50%);
-  bottom: 2rem;
-  height: 80vh;
+  height: 40vh;
 }
 
 .eyes-follow-tired {
@@ -24,7 +11,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vw;
 
   .container-eyes {
     display: flex;
@@ -34,6 +20,7 @@
     position: relative;
 
     .eyes {
+      margin-top: 25vh;
       position: absolute;
       display: flex;
       flex-direction: row;
@@ -64,19 +51,17 @@
 }
 
 .smile-photo-hide {
-  width: 30%;
-  position: absolute;
-  top: -70px;
   opacity: 0;
   transition: var(--slower-transition);
 }
 
 .smile-photo-show {
-  width: 30%;
-  position: absolute;
-  top: -70px;
   opacity: 1;
   transition: var(--slower-transition);
+}
+
+.subtitle-soon {
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 1024px) {
