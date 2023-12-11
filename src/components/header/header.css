@@ -49,14 +49,14 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 70vh;
+  .header__photo {
+    width: 20rem;
+    left: calc(50% - 10rem);
+    border-radius: 7rem 7rem 7rem 7rem;
+    padding-top: 1rem;
   }
   .header__button-group-social,
   .header__scroll_end {
