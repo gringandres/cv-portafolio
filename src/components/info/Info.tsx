@@ -21,7 +21,7 @@ const Info = () => {
             <article className="info__card">
               <BsAward className="info__icon" />
               <h5>Experience</h5>
-              <small>4+ Years</small>
+              <small>5+ Years</small>
             </article>
 
             <article className="info__card">
